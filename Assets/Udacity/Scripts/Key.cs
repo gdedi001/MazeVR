@@ -5,15 +5,19 @@ using UnityEngine;
 public class Key : MonoBehaviour 
 {
     //Create a reference to the KeyPoofPrefab and Door
+    public GameObject Door;
+    public GameObject Effect;
 
 	void Update()
 	{
 		//Not required, but for fun why not try adding a Key Floating Animation here :)
+        
 	}
 
 	public void OnKeyClicked()
 	{
         // Instatiate the KeyPoof Prefab where this key is located
+        //Instantiate.
         // Make sure the poof animates vertically
         // Call the Unlock() method on the Door
         // Set the Key Collected Variable to true
