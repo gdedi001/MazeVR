@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Door : MonoBehaviour 
-{
+public class Door : MonoBehaviour  {
+
     public AudioClip[] soundFiles;
     public AudioSource soundSource;
 
@@ -39,9 +39,7 @@ public class Door : MonoBehaviour
         }
     }
 
-    public void Unlock()
-    {
-        Debug.Log("Door unlocked");
+    public void Unlock() {
         // You'll need to set "locked" to false here
         locked = false;
     }

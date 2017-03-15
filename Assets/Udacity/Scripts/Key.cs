@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Key : MonoBehaviour 
-{
+public class Key : MonoBehaviour {
 
     //Create a reference to the KeyPoofPrefab and Door
     public GameObject Door;
