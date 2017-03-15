@@ -12,7 +12,7 @@ For this project, I was able to create a fully interactive VR experience in the 
 
 Understanding the difference between `Quaternion.identity` & `transform.rotation.` 
 
-## Skills itilized
+## Skills utilized
 
 * Creating new C# scripts in Unity
 * If then, loops, arrays, and other programming constructs
