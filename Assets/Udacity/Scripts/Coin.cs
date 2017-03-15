@@ -16,5 +16,4 @@ public class Coin : MonoBehaviour
         // Destroy this coin. Check the Unity documentation on how to use Destroy
         Destroy(gameObject);
     }
-
 }

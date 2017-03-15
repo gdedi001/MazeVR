@@ -11,8 +11,7 @@ public class Door : MonoBehaviour  {
     bool locked = true;
     // Create a boolean value called "opening" that can be checked in Update() 
     bool opening = false;
-
-    private string objectToFind = "Door";
+    // estimates how high the door must be raised when opening
     private float fullHeight = 8.0f;
 
     void Update() {
@@ -20,21 +19,22 @@ public class Door : MonoBehaviour  {
         if (opening && transform.position.y < fullHeight) {
             // Animate the door raising up
             transform.Translate(0, 2.5f * Time.deltaTime, 0);
-            Debug.Log(opening.ToString());
         }
 
     }
 
     public void OnDoorClicked() {
+        int doorLocked = 0;
+        int doorOpen = 1;
 
         // If the door is clicked and unlocked
         if (!locked) {
-            soundSource.clip = soundFiles[1];
+            soundSource.clip = soundFiles[doorOpen];
             soundSource.Play();
             opening = true;
         }
         else {
-            soundSource.clip = soundFiles[0];
+            soundSource.clip = soundFiles[doorLocked];
             soundSource.Play();
         }
     }
