@@ -37,4 +37,4 @@ GoogleVR Unity SDK (v 1.0.3)
 ## Screenshots
 ![Alt text](/Screenshots/Start_View.png?raw=true "Starting Viewpoint")\
 ![Alt text](/Screenshots/End_View.png?raw=true "Ending Viewpoint")
-![Alt text](/Screenshots/Full_Maze.png?raw=true "Full View")
+![Alt text](/Screenshots/Full_Maze.PNG?raw=true "Full View")
