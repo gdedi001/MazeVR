@@ -8,11 +8,6 @@ public class Key : MonoBehaviour {
     public GameObject Door;
     public GameObject Effect;
 
-	void Update()
-	{
-        
-	}
-
 	public void OnKeyClicked()
 	{
         Vector3 keyLocation = gameObject.transform.position;

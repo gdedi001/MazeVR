@@ -28,6 +28,5 @@ public class Coin : MonoBehaviour
         CoinsCollected++;
         // Destroy this coin. Check the Unity documentation on how to use Destroy
         Destroy(gameObject);
-        print(CoinsCollected);
     }
 }
